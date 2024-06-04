@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(/image/run\ way\ background.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+.clouds{
+    position: absolute;
+  
+    left: 00px;
+    width: 500%;
+    background-image: url(https://i.ibb.co/7S6qn59/clouds.png);
+    background-repeat: r;
+    animation: clouds 130s ;
+  }
+  @keyframes clouds{
+    100%{
+      transform: translateX(-2000px);
+    }
+  }
+ 
+
+.moveplane{
+position: absolute;
+left:-360px;
+top: 75%;
+padding: px ;
+animation-name: plane;
+animation-duration: 7m;
+animation: moveplane 20s linear infinite;
+}
+
+@keyframes moveplane {
+    
+    0%{ 
+        transform: translate(0);
+    }
+    
+    /* 30%{
+        transform: translate(500px);
+    }
+
+    50%{
+        transform: translate(--200px,800px);
+    }
+
+    70%{
+        transform: translate(200px, -200px);
+    } */
+
+    100%
+    {
+        transform: translate(1500px,-600px);
+    }
+}
+
+iframe{
+    content: '';
+    position: absolute;
+    top: 70px;
+    
+}
